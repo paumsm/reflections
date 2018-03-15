@@ -1,23 +1,26 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When i initialize a repository, it just creates the repository without any commits.
-I need to do it so the git software can create the necessary files to control my commits and changes to the code
+	When i initialize a repository, it just creates the repository without any commits.
+	I need to do it so the git software can create the necessary files to control my commits and changes to the code
 
 How is the staging area different from the working directory and the repository?
-We add the files that we hanna save/commit in the staging area. The working directory has the actual program
+	We add the files that we hanna save/commit in the staging area. The working directory has the actual program
 What value do you think it offers?
-We can save specific parts of the program, and not the whole program. 
+	We can save specific parts of the program, and not the whole program. 
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	After making one logical change in the working directory add that file or files to the staging area and then commit
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When i need to experiment or change the some mechanic on the program, it's better to use a branch
 
 How do the diagrams help you visualize the branch structure?
+	They help very much, the more branches we have more complex it becames
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	It merged all the changes in to one file, merging the new functionalities with the funtionalities in the master branch.
+	To better understand all the commits made
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	
