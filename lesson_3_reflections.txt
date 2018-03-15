@@ -4,20 +4,32 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    I could have added a few commits with errors or expermentations in a branch. So it's better for me to decide when to pull.
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    forks are like cloning but specific with gitHub in that it clones another repository and retains it's author and other information.
+    clones its any copy that i do to a repository
+    branch its a new direction in the project, could be a experiment or a new function, and we leave the main branch so we can test it without impacting the program
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    We can see what changes have been made till that point, and re-structure the program accordingly
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    using dropbox, and it's a lot harder than using git
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When i want to get a new feature added on. But need the product to be running
+
+Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
